@@ -2,12 +2,12 @@
 # netSteal.exe
 Malware that steals all saved network profiles.
 
-**Requirements**
-[Node.js](https://nodejs.org/)
-[C++ compiler](https://visualstudio.microsoft.com/)
-[NPM](https://www.npmjs.com/)
+**Requirements**\
+[Node.js](https://nodejs.org/)\
+[C++ compiler](https://visualstudio.microsoft.com/)\
+[NPM](https://www.npmjs.com/)\
 
-**Setting Up Server**
+**Setting Up Server**\
 Run ``node server.js`` in your terminal (you need to port forword 8080 if the user is not on your network)
 
 **Setting up netSteal.exe**
