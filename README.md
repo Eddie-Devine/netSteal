@@ -2,5 +2,5 @@
 # netSteal.exe
 Malware that steals all saved network profiles.
 
-**How do use?**
-1. Replace 
+**Set Up**
+1. Replace <SERVER ADDRESS> with your external IPv4 and port number. EX: 12.123.12.123:8080
